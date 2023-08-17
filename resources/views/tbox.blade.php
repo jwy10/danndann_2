@@ -290,7 +290,7 @@
                 <div class="emptytrip"></div>
             </form>
 
-            <div class="line546"></div>
+           <!--  <div class="line546"></div> -->
             <div class="group5827">
                 <table>
                     <thead class="box2429">
@@ -448,12 +448,13 @@
                     </tfoot>
                 </table>
             </div>
-
+        <div class="line546"></div>               
         </div>
     </div>
     <script src="https://kit.fontawesome.com/c52defce05.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ec1a28f6c3b248103110e5b04b708ee1">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=12ef8a88b31ad05eff2e3e9e054f857f">
     </script>
+
     <script src="{{ asset('js/search-Monitor.js') }}"></script>
     <script src="{{ asset('js/openTab.js') }}"></script>
     <script src="{{ asset('js/kakaoMap.js') }}"></script>

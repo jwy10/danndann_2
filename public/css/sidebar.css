@@ -3,7 +3,7 @@
 .monitoring-mode {
   top: 111px;
   left: 0px;
-  width: 20vw;
+  width: 325px;
   height: 675px;
   opacity: 1;
   background: rgb(255, 255, 255) 0% 0% no-repeat padding-box;
@@ -15,7 +15,7 @@
 }
 
 .monitoring-mode div {
-  width: 18vw;
+  width: 285px;
 }
 
 .monitoring-mode div select {
@@ -33,7 +33,7 @@
 .replay-mode {
   top: 111px;
   left: 0px;
-  width: 384px;
+  width: 325px;
   height: 635px;
   opacity: 1;
   background: rgb(255, 255, 255) 0% 0% no-repeat padding-box;
@@ -49,7 +49,7 @@
   /* Layout Properties */
   top: 137px;
   left: 20px;
-  width: auto;
+  width: 285PX;
   height: 25px;
   /* UI Properties */
   text-align: left;
@@ -88,10 +88,10 @@
 .label-with-button {
   display: flex;
   align-items: center;
-  width: 15%px;
+  width: 283px;
   margin-top: 10px;
   border: 1px solid #999;
-  border-radius: 7px;
+  border-radius: 4px;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -115,11 +115,11 @@
   /* 이미지 크기 조절 */
   background-repeat: no-repeat;
   /* 이미지 반복 제거 */
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .re-client {
-  width: 340px;
+  width: 285px;
   height: 47px;
 }
 
