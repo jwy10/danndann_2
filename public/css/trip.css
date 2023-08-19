@@ -4,7 +4,7 @@
     /* Layout Properties */
     top: 746px;
     left: 0px;
-    width: 1904;
+    width: 1800px;
     height: 334px;
     border: #292929;
     border-radius: 4px;
@@ -17,26 +17,29 @@
     /* Layout Properties */
     top: 752px;
     left: 20px;
-    width: 1904px;
+    width: 1903px;
     height: 317px;
     /* UI Properties */
     opacity: 1;
 }
 
-.trip-date-form{
-    padding-left: 10px;
+.trip-date-form {
+    padding-left: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    height: 8vh;
+    height: 85px;
 }
 
 .trip-download {
-    border: 1px solid rgb(223, 223, 223); /* 테두리 두께와 스타일 지정 */
+    width: 46px;
+    height: 46px;
+    border: 1px solid #D7DBEC;
+    /* 테두리 두께와 스타일 지정 */
     border-radius: 5px;
-  }
-  
+}
+
 
 
 .trip {
@@ -47,7 +50,7 @@
     height: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
     font: normal normal bold 20px/25px Spoqa Han Sans Neo;
     letter-spacing: -0.4px;
@@ -61,7 +64,7 @@ input[type="date"]::-webkit-clear-button {
 }
 
 /* Removes the spin button */
-input[type="date"]::-webkit-inner-spin-button { 
+input[type="date"]::-webkit-inner-spin-button {
     display: none;
 }
 
@@ -74,30 +77,37 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 input[type="date"] {
     appearance: none;
     -webkit-appearance: none;
-    color: #95a5a6;
-    font-family: "Helvetica", arial, sans-serif;
+    color: #ffffff;
+    font: normal normal medium 16px/21px Spoqa Han Sans Neo;
     font-size: 18px;
-    border:1px solid #ecf0f1;
-    background:#ecf0f1;
-    padding:5px;
+    border: 1px solid #ecf0f1;
+    background: #ffffff;
+    margin-right: 10px;
     display: inline-block !important;
     visibility: visible !important;
 }
 
-input[type="date"], focus {
-    color: #95a5a6;
+input[type="date"],
+focus {
+    width: 158px;
+    height: 47px;
+    color: #507CF3;
+    border: 1px solid rgb(223, 223, 223);
+    /* 테두리 두께와 스타일 지정 */
+    border-radius: 4px;
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
+    text-align: center;
 }
 
-.emptytrip{
+.emptytrip {
     width: 1400px;
-    min-height:45px;
-    background-color:#ffffff;
-    color:#FFF;
-    display:inline-block;
-    padding:10px;
+    min-height: 45px;
+    background-color: #ffffff;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px;
 }
 
 .line546 {
@@ -112,16 +122,16 @@ input[type="date"], focus {
     /* table container */
     top: 753px;
     left: 20px;
-    width: 1884px;
+    width: 1880px;
     height: 247px;
     opacity: 1;
     /* display: block; */
     padding-left: 20px;
-    font: normal normal medium 14px/18px Spoqa Han Sans Neo;
+    font: normal normal bold 16px/24px Spoqa Han Sans Neo;
     letter-spacing: -0.28px;
     color: #292929;
     overflow-y: auto;
-    
+
 }
 
 .group5827 table {

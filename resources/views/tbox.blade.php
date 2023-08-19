@@ -174,7 +174,7 @@
                 </select>
             </div>
             <div>
-                <select name="vnum" class="re-client" id="vnum" required>
+                <select name="vnum" class="re-client2" id="vnum" required>
                     <option value="" disabled selected>차량번호 선택</option>
                     <option value="충남 123가1234">충남 123가1234</option>
                     <option value="전남 123가1234">전남 123가1234</option>
@@ -286,6 +286,8 @@
                 <input type="date" name="fromdate" required="required">
 
                 <input type="date" name="todate" required="required">
+
+                <input type="image" class="trip-download" src="pictures/download.png" alt="Submit">
 
                 <div class="emptytrip"></div>
             </form>

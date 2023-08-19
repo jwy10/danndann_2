@@ -3,8 +3,8 @@
 .monitoring-mode {
   top: 111px;
   left: 0px;
-  width: 325px;
-  height: 675px;
+  width: 328px;
+  height: 637px;
   opacity: 1;
   background: rgb(255, 255, 255) 0% 0% no-repeat padding-box;
   box-sizing: border-box;
@@ -34,7 +34,7 @@
   top: 111px;
   left: 0px;
   width: 325px;
-  height: 635px;
+  height: 638px;
   opacity: 1;
   background: rgb(255, 255, 255) 0% 0% no-repeat padding-box;
   box-sizing: border-box;
@@ -42,7 +42,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  border-bottom: 1px solid #ccc;
 }
 
 .searchveh {
@@ -121,6 +121,13 @@
 .re-client {
   width: 285px;
   height: 47px;
+  margin-top: 25px;
+}
+
+.re-client2 {
+  width: 285px;
+  height: 47px;
+  margin-top: 10px;
 }
 
 .box2426 {
@@ -141,7 +148,7 @@
   top: 336px;
   left: 20px;
   width: 285px;
-  height: 452px;
+  height: 453px;
   
   /* UI Properties */
   opacity: 1;
@@ -155,11 +162,11 @@
 .box3894 th {
   height: 20px;
   border-bottom: 2px solid #bfc5e0;
-  padding: 15px 10px 10px 10px;
-  font-size: 15px;
+  padding: 7px 0px 5px 15px;
+  font-size: 10px;
   display: table-cell;
   text-align: center;
-
+  font: normal normal bold 16px/40px Spoqa Han Sans Neo;
 }
 
 

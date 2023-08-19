@@ -5,7 +5,8 @@
   justify-content: flex-start;
   gap: 0px;
   margin-left: auto;
-  width: 1580px;
+  width: 1575px;
+  height: 635px;
   /* height:600px;
   grid-template-columns: 1fr 1fr;
   width: 1600; */
@@ -16,7 +17,7 @@
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-gap: 0px;
-  width: 894px;
+  width: 914px;
   height: 635px;
 }
 
@@ -25,7 +26,7 @@
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-gap: 0px;
-  width: 910px;
+  width: 914px;
   height: 635px;
 }
 
