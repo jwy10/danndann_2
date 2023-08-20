@@ -78,7 +78,7 @@
                             echo "<td>";
                             
                             if ($car->car_status == 1) {
-                                echo "<img src='pictures/good.png' width='23' height='25'>";
+                                echo "<img src='pictures/good.png' width='23' height='35'>";
                             } else {
                                 echo "<img src='bad-image.png' alt='Bad'>";
                             }
